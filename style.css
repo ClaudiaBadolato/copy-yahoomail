@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color:rgba(228, 226, 205, 0.5) ;
+    width: 1000px;
+    margin: auto;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    
+}
+
+.logo{
+    width: 150px;
+    border: 1px solid blueviolet;
+    border-radius: 20%;
+}
+
+.logotext{
+    color: blueviolet;
+    display: inline-block;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+#text{
+    width: 300px;
+    font-size: 15px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+h2 > span{
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: white;
+}
+
+.email.read, .email.unread{
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.email.read{
+    background-color: lightgray;
+}
+
+.row-left{
+    width: 30%;
+}
+
+.row-right{
+    width: 67%;
+}
+
+.row-left, .row-right{
+    display: inline-block;
+}
+
+.mittente, .oggetto{
+    margin: 3px;
+}
+
+.testo{
+    color: grey;
+}
+
+.testo::after{
+    content: "...";
+}
+
+.star {
+    color: black;
+}
+
+.star::after {
+    content: "\2605";
+}
+
+.foot{
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
